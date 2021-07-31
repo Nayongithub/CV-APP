@@ -1,0 +1,24 @@
+
+
+Left Side background : #203864
+Designation : #FCD765
+
+
+
+line design
+
+h2 {
+    overflow: hidden;
+}
+
+h2:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid black;
+}
+
